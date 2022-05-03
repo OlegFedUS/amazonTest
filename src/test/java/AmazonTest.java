@@ -32,6 +32,5 @@ public class AmazonTest {
         select.selectByVisibleText("3");
 
 
-
     }
 }
