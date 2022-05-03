@@ -25,7 +25,6 @@ public class AmazonTest {
 
         driver.findElement(By.id("twotabsearchtextbox")).sendKeys("dualsense\n");
         driver.findElement(By.xpath("//img[@src='https://m.media-amazon.com/images/I/61Uh8NFDzsL._AC_UY218_.jpg']")).click();
-        //driver.findElement(By.xpath("//input[@aria-labelledby='color_name_4-announce']")).click();
 
         WebElement dropdown = driver.findElement(By.id("a-autoid-0-announce"));
         dropdown.click();
@@ -33,13 +32,6 @@ public class AmazonTest {
         select.selectByVisibleText("3");
 
 
-// //span[contains(@class,'a-dropdown-label')]
-
-        /*
-        WebElement dropdown = new WebDriverWait(driver, Duration.ofSeconds(5))
-                .until(ExpectedConditions.elementToBeClickable(By.id("a-autoid-26")));
-        dropdown.click();
-         */
 
     }
 }
